@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.esquivel.anpr_imagin.SalidaActivity"
+    android:background="#ffd2fcff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="REGISTRO SALIDA DE VEHÍCULOS"
+        android:id="@+id/textView3"
+        android:textColor="#ffff0019"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="PLACA: "
+        android:id="@+id/textView4"
+        android:textColor="#ffff1c00"
+        android:textSize="25dp"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPlaca2"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_alignEnd="@+id/ibtnBuscarS"
+        android:layout_toEndOf="@+id/textView4"
+        android:textStyle="bold|italic"
+        android:inputType="textCapCharacters|textCapWords|textCapSentences|textAutoComplete|textAutoCorrect" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibtnCamaraS"
+        android:src="@drawable/camera18"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/txtPlaca2"
+        android:baselineAlignBottom="false" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibtnVozS"
+        android:src="@drawable/mic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibtnBuscarS"
+        android:src="@drawable/search54"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

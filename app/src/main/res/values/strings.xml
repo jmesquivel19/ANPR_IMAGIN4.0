@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ANPR4.0</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_entrada">Entrada de Vehículos</string>
+    <string name="title_acivity_salida">SALIDA DE VEHÍCULOS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_info_entrada">infoEntrada</string>
+    <string name="title_activity_info_salida">infoSalida</string>
+
+    <string name="title_activity_entrada_f">entradaF</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
